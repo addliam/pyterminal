@@ -11,4 +11,4 @@ go build pyterminal.go
 
 ### Captura de pantalla
 
-![Captura de pyterminal](captura.png)
+![Captura de pyterminal](https://github.com/addliam/pyterminal/blob/main/captura.PNG)
