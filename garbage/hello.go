@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
 func multiplyString(times int, text string) string {
 	var res string
@@ -17,5 +20,6 @@ func main() {
 		fmt.Println(multiplyString(j, "*"))
 	}
 	fmt.Print("Presione enter para salir >> ")
-	fmt.Scanln(input)
+	fmt.Scanln(&input)
+	time.Sleep(5 * time.Second)
 }
